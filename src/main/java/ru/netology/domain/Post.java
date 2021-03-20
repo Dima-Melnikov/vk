@@ -3,11 +3,10 @@ package ru.netology.domain;
 public class Post {
     private int id;
     private int imageUrl;
-    private int name;
+    private boolean name;
     private int post;
     private int date;
     private int time;
-    private boolean islike;
     private int share;
     private int  ownerId;
     private int fromId;
@@ -22,7 +21,6 @@ public class Post {
     private int signerId;
     private boolean canPin;
     private boolean canDelete;
-    private int canEdit;
     private boolean isPinned;
     private boolean markedAsAdsInfo;
     private boolean isFavorite;
