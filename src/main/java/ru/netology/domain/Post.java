@@ -3,7 +3,7 @@ package ru.netology.domain;
 public class Post {
     private int id;
     private int imageUrl;
-    private boolean name;
+    private String name;
     private int post;
     private int date;
     private int time;
@@ -25,7 +25,7 @@ public class Post {
     private boolean markedAsAdsInfo;
     private boolean isFavorite;
     private int postponedId;
-    private int commentsInfo;
+    private CommentsInfo commentsinfo;
     private LikesInfo likesInfo;
     private RepostsInfo repostsInfo;
     private ViewsInfo viewsInfo;
